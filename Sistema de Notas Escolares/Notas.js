@@ -1,4 +1,5 @@
-let nota = 60
+//let nota = 60
+let nota = prompt("Digite uma nota")
 
 if(nota >= 90){
     console.log('Sua Media foi A')
@@ -10,7 +11,7 @@ if(nota >= 90){
     console.log('Sua Media foi C')
     
 } else if(nota >= 60 && nota <= 69) {
-    console.log('Sua Media foi F')
+    console.log('Sua Media foi D')
     
 } else if(nota < 60) {
     console.log('Sua Media foi F')
@@ -21,3 +22,4 @@ if(nota >= 90){
 }
 
 //console.log('Olá mundo!')
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Nacionalidade</title>
+    <link rel="stylesheet" href="./ex009.css">
+    <script src="./ex009.js"></script>
+    <link rel="shortcut icon" href="./icone.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Sistema de Consulta de Nacionalidade</h1><p>
+    Digite sua Nacionalidade:
+        <input type="text" id="nacionalidade" placeholder="Digite seu páis aqui">
+        <input type="button" id="enviar" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <br>
+    Agende com o consulado:
+    <p><Input type="radio" id="Domingo" value="Domingo" onclick="confirmar()">Domingo</Input>
+    <Input type="radio" id="Segunda" value="Segunda-feira" onclick="confirmar()">Segunda</Input>
+    <Input type="radio" id="Terça" value="Terça-feira" onclick="confirmar()">Terça</Input>
+    <Input type="radio" id="Quarta" value="Quarta-feira" onclick="confirmar()">Quarta</Input>
+    <Input type="radio" id="Quinta" value="Quinta-feira" onclick="confirmar()">Quinta</Input>
+    <Input type="radio" id="Sexta" value="Sexta-feira" onclick="confirmar()">Sexta</Input>
+    <Input type="radio" id="Sábado" value="Sábado" onclick="confirmar()">Sábado</Input>
+    <div id="agendado">
+
+        
+    </div>
+        
+    <p><img id="policia" src="./policia.png" alt=""></p>    
+</body>
+</html>

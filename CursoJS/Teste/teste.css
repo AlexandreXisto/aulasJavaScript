@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(116, 136, 189);
+    font: normal 15px "Helvetica Neue",Helvetica,Arial;
+}
+
+#ajuste {
+    color: rgb(51, 34, 207);
+    text-align: center;
+    font: normal 20px times new roman;
+    margin-top: 15px;
+}
+
